@@ -1,0 +1,4 @@
+node_modules/
+.DS_Store
+# 登录态和采集结果都只留在本机
+.local-data/

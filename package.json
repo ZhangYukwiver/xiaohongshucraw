@@ -1,0 +1,14 @@
+{
+  "name": "xhs-data-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "本地运行的小红书直播间用户数据采集：弹幕和发言用户主页上公开的资料",
+  "type": "module",
+  "scripts": {
+    "live": "node collector/live.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "playwright-core": "^1.63.0"
+  }
+}
